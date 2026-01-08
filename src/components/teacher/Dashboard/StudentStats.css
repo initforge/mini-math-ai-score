@@ -1,0 +1,92 @@
+.student-stats-card {
+  margin-top: var(--spacing-lg);
+}
+
+.student-stats-card h2 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-primary);
+  font-size: var(--font-h3);
+  font-weight: var(--font-weight-semibold);
+}
+
+.stats-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.stat-item.total {
+  padding: var(--spacing-lg);
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.stat-item.total:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-secondary);
+  line-height: 1.4;
+}
+
+.stats-by-class {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.class-stat-item {
+  padding: var(--spacing-md);
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  transition: all 0.2s ease;
+}
+
+.class-stat-item:hover {
+  border-color: var(--color-primary);
+  background: rgba(23, 78, 79, 0.02);
+  box-shadow: var(--shadow-sm);
+}
+
+.class-name {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  font-size: var(--font-small);
+  line-height: 1.4;
+}
+
+.class-count {
+  color: var(--color-text-secondary);
+  font-size: var(--font-small);
+  line-height: 1.4;
+}
+
+.no-classes {
+  color: var(--color-text-secondary);
+  text-align: center;
+  padding: var(--spacing-lg);
+  font-style: italic;
+  font-size: var(--font-small);
+}

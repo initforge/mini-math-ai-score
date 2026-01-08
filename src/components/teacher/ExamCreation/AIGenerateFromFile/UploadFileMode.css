@@ -1,0 +1,220 @@
+.upload-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-xl);
+}
+
+.upload-area {
+  width: 100%;
+  max-width: 500px;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3xl);
+  border: 2px dashed var(--color-primary);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.upload-label:hover {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: var(--color-primary);
+  transform: scale(1.02);
+}
+
+.upload-icon {
+  font-size: 64px;
+  margin-bottom: var(--spacing-md);
+}
+
+.file-name {
+  margin-top: var(--spacing-sm);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.upload-hint {
+  margin-top: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.file-list-container {
+  width: 100%;
+  max-width: 700px;
+}
+
+.file-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.file-list-header h4 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+.add-file-btn {
+  position: relative;
+}
+
+.file-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-lg);
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: all 0.2s;
+}
+
+.file-item:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+  transform: translateY(-1px);
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  flex: 1;
+}
+
+.file-type-primary {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.file-name-with-ext {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.file-name {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  margin: 0;
+  word-break: break-all;
+  font-weight: var(--font-weight-medium);
+}
+
+.file-extension {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.file-type {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  width: fit-content;
+}
+
+.file-type.exam_paper {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+}
+
+.file-type.answer_sheet {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+}
+
+.file-type.essay_answer {
+  background: rgba(168, 85, 247, 0.1);
+  color: #a855f7;
+}
+
+.file-type.student_list {
+  background: rgba(251, 146, 60, 0.1);
+  color: #fb923c;
+}
+
+.file-type.unknown {
+  background: rgba(107, 114, 128, 0.1);
+  color: #6b7280;
+}
+
+.confidence {
+  font-size: var(--font-size-xs);
+  opacity: 0.7;
+}
+
+.remove-file-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+  padding: var(--spacing-xs);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-file-btn:hover {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.preview-mode {
+  padding: var(--spacing-md);
+}
+
+.generate-btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-xl);
+}
+
+.generate-btn {
+  min-width: 200px;
+}
+
+.preview-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-card-bg);
+}
+

@@ -1,0 +1,13 @@
+.class-management {
+  min-height: 100vh;
+  background: var(--color-background);
+  padding-bottom: var(--spacing-3xl);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--spacing-xl) 0;
+}
+

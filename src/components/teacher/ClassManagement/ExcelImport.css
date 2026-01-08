@@ -1,0 +1,114 @@
+.excel-import {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.import-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.file-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.file-label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  font-size: var(--font-small);
+}
+
+.file-upload-area {
+  position: relative;
+}
+
+.file-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-xl);
+  border: 2px dashed var(--color-secondary);
+  border-radius: var(--radius-md);
+  background: var(--color-card-bg);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-height: 120px;
+}
+
+.file-upload-label:hover {
+  border-color: var(--color-primary);
+  background: rgba(59, 130, 246, 0.05);
+  transform: translateY(-2px);
+}
+
+.file-upload-icon {
+  font-size: 32px;
+  opacity: 0.7;
+}
+
+.file-upload-text {
+  font-size: var(--font-body);
+  color: var(--color-text-primary);
+  text-align: center;
+  font-weight: var(--font-weight-medium);
+}
+
+.file-upload-hint {
+  font-size: var(--font-small);
+  color: var(--color-text-secondary);
+  margin-top: var(--spacing-xs);
+}
+
+.import-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--spacing-md);
+}
+
+.import-preview {
+  margin-top: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-card-bg);
+}
+
+.import-preview h3 {
+  margin-bottom: var(--spacing-md);
+}
+
+.preview-table {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.preview-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-small);
+}
+
+.preview-table th,
+.preview-table td {
+  padding: var(--spacing-sm);
+  border: 1px solid var(--color-card-bg);
+  text-align: left;
+}
+
+.preview-table th {
+  background: var(--color-card-bg);
+  font-weight: var(--font-weight-semibold);
+}
+

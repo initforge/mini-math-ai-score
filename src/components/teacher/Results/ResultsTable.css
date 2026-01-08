@@ -1,0 +1,75 @@
+.results-table-card {
+  margin-top: var(--spacing-lg);
+  overflow-x: auto;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.results-table th {
+  background: var(--color-card-bg);
+  padding: var(--spacing-md);
+  text-align: left;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  border-bottom: 2px solid var(--color-card-bg);
+  white-space: nowrap;
+}
+
+.results-table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-card-bg);
+  color: var(--color-text-secondary);
+}
+
+.results-table tr:hover {
+  background: var(--color-card-bg);
+}
+
+.username-cell {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.grade-badge {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-semibold);
+}
+
+.grade-xuất-sắc {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--color-success);
+}
+
+.grade-giỏi {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--color-primary);
+}
+
+.grade-khá {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--color-warning);
+}
+
+.grade-trung-bình {
+  background: rgba(156, 163, 175, 0.1);
+  color: var(--color-secondary);
+}
+
+.grade-yếu {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--color-error);
+}
+
+.no-results {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--color-text-secondary);
+}
+

@@ -1,0 +1,134 @@
+/* ============================================
+   CSS Patterns - Thay thế background images
+   ============================================ */
+
+/* Dots Pattern - Subtle */
+.pattern-dots {
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1px);
+  background-size: 10px 10px;
+  opacity: 0.1;
+}
+
+.pattern-dots-subtle {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 1;
+}
+
+/* Grid Pattern - Subtle */
+.pattern-grid {
+  background-image: 
+    linear-gradient(currentColor 1px, transparent 1px),
+    linear-gradient(90deg, currentColor 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.05;
+}
+
+.pattern-grid-subtle {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 1;
+}
+
+/* Stars Pattern - For banners */
+.pattern-stars {
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(2px 2px at 60px 70px, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 50px 50px, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 20px 60px, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(2px 2px at 60px 20px, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(1px 1px at 40px 90px, rgba(255, 255, 255, 0.3), transparent);
+  background-size: 100px 100px;
+  opacity: 0.25;
+}
+
+/* Background Pattern - General */
+.bg-pattern-subtle {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.03) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Empty State Styles */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3xl);
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.empty-state-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.3;
+  position: relative;
+}
+
+.empty-state-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border: 3px dashed currentColor;
+  border-radius: var(--radius-md);
+}
+
+.empty-state-icon-folder::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 30px;
+  border: 3px solid currentColor;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.empty-state-icon-users::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border: 3px solid currentColor;
+  border-radius: 50%;
+}
+
+.empty-state-icon-users::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid currentColor;
+  border-radius: 50%;
+}
+
+.empty-state-title {
+  font-size: var(--font-h3);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-primary);
+}
+
+.empty-state-description {
+  font-size: var(--font-body);
+  color: var(--color-text-secondary);
+}
+

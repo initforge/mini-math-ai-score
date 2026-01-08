@@ -1,0 +1,114 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background: var(--color-background); /* #F3F4F6 */
+  padding: var(--spacing-md);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.admin-dashboard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/images/admin-dashboard-bg.png') center/cover;
+  opacity: 0.08;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.dashboard-container {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.dashboard-header {
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboard-header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.page-title {
+  color: white;
+  font-size: var(--font-h1);
+  margin: 0 0 var(--spacing-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  position: relative;
+  z-index: 1;
+}
+
+.title-highlight {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 20px rgba(255, 255, 255, 0.3);
+  line-height: 1.2;
+}
+
+.title-subtitle {
+  font-size: var(--font-h3);
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: var(--font-weight-normal);
+  margin-top: var(--spacing-xs);
+}
+
+.dashboard-welcome {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-welcome p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: var(--font-body);
+  margin: 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  display: inline-block;
+  backdrop-filter: blur(10px);
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md); /* Reduced from lg */
+}
+
+.dashboard-card {
+  transition: all 0.3s ease;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+

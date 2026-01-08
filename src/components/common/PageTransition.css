@@ -1,0 +1,11 @@
+.page-transition {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  /* Ensure content is visible even during animation */
+  visibility: visible;
+  transform: none;
+  perspective: none;
+  filter: none;
+}
+

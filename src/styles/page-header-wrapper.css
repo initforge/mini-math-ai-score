@@ -1,0 +1,12 @@
+/* Wrapper để PageHeader full width */
+.page-header-wrapper {
+  width: 100%;
+  padding: var(--spacing-lg);
+  box-sizing: border-box;
+}
+
+.page-header-wrapper .page-container {
+  max-width: 100%;
+  padding: 0;
+}
+

@@ -1,0 +1,60 @@
+
+=== Sheet: toan_hoc_10a1 ===
+
+Row 1: SỞ GIÁO DỤC VÀ ĐÀO TẠO NGHỆ AN |  |  |  | 
+Row 2: THPT NAM YÊN THÀNH |  |  |  | 
+Row 3: BẢNG ĐIỂM CHI TIẾT - MÔN TOÁN HỌC - HỌC KỲ 1 - NĂM HỌC 2025-2026 |  |  |  | 
+Row 4: Khối 10 - Lớp 10A1 |  |  |  | 
+Row 6: STT | Mã học sinh | Họ và tên |  | Ngày sinh | ĐIỂM | Nhận xét
+Row 7:  |  |  |  |  | CK1
+Row 8: 1 | 2510004303 | Cao Viết | Anh | 12/10/2010
+Row 9: 2 | 2510004323 | Đặng Hữu Lê | Anh | 13/05/2010
+Row 10: 3 | 2510004343 | Thái Thị | Anh | 17/10/2010
+Row 11: 4 | 2510004363 | Nguyễn Ngọc | Ánh | 10/06/2010
+Row 12: 5 | 2510004383 | Nguyễn Thế Hồng | Ân | 20/12/2010
+Row 13: 6 | 2510004403 | Hoàng Gia | Bảo | 31/03/2010
+Row 14: 7 | 2510004423 | Lê Băng | Băng | 29/06/2010
+Row 15: 8 | 2510004443 | Nguyễn Bảo | Châu | 01/12/2010
+Row 16: 9 | 2510004463 | Lê Anh | Chung | 01/04/2010
+Row 17: 10 | 2510004483 | Đặng Thị Thùy | Dung | 08/03/2010
+Row 18: 11 | 2510004503 | Nguyễn Trần Bạch | Dương | 16/03/2010
+Row 19: 12 | 2510004523 | Phan Ngô Linh | Đan | 15/10/2010
+Row 20: 13 | 2510004543 | Phan Văn | Đăng | 16/08/2010
+Row 21: 14 | 2510004563 | Nguyễn Thị Quỳnh | Điệp | 18/01/2010
+Row 22: 15 | 2510004583 | Cao Thị Hương | Giang | 03/04/2010
+Row 23: 16 | 2510004603 | Nguyễn Thị | Hoài | 15/12/2010
+Row 24: 17 | 2510004623 | Nguyễn Trọng | Hoàng | 04/11/2010
+Row 25: 18 | 2510004643 | Nguyễn Hữu | Hồng | 24/04/2010
+Row 26: 19 | 2510004663 | Nguyễn Thị | Huyền | 20/07/2010
+Row 27: 20 | 2510004703 | Cao Thị Lan | Hương | 09/09/2010
+Row 28: 21 | 2510004723 | Nguyễn Phương | Khanh | 31/03/2010
+Row 29: 22 | 2510004743 | Đặng Trọng | Kim | 11/11/2010
+Row 30: 23 | 2510004763 | Đặng Khánh | Linh | 12/09/2010
+Row 31: 24 | 2510004783 | Trần Thị Phương | Linh | 03/03/2010
+Row 32: 25 | 2510004803 | Phan Thị | Nguyệt | 24/08/2010
+Row 33: 26 | 2510004823 | Nguyễn Thị Quỳnh | Như | 03/12/2010
+Row 34: 27 | 2510004843 | Nguyễn Danh | Phi | 19/02/2010
+Row 35: 28 | 2510004863 | Nguyễn Hồng | Phú | 09/01/2010
+Row 36: 29 | 2510004883 | Nguyễn Thế | Phúc | 22/06/2010
+Row 37: 30 | 2510004903 | Phan Thị Hồng | Phúc | 07/11/2010
+Row 38: 31 | 2510004923 | Nguyễn Sỹ Gia | Phước | 14/08/2010
+Row 39: 32 | 2510004943 | Nguyễn Lâm | Sung | 01/04/2010
+Row 40: 33 | 2510004963 | Hoàng Anh | Tài | 22/06/2010
+Row 41: 34 | 2510004983 | Lê Trọng | Thành | 24/10/2010
+Row 42: 35 | 2510005003 | Lê Ánh | Thương | 18/04/2010
+Row 43: 36 | 2510005023 | Cao Thị | Toàn | 01/01/2010
+Row 44: 37 | 2510005043 | Nguyễn Huyền | Trang | 27/02/2010
+Row 45: 38 | 2510005063 | Nguyễn Trọng | Tuấn | 10/10/2010
+Row 46: 39 | 2510005083 | Phan Đình | Tuệ | 22/10/2010
+Row 47: 40 | 2510005103 | Đặng Quang Long | Vũ | 03/05/2010
+Row 48: 41 | 2510005123 | Nguyễn Thị Yến | Vy | 04/11/2010
+Row 49: 42 | 2510005143 | Trịnh Thị Tường | Vy | 07/09/2010
+Row 50: 43 | 2510005163 | Lê Thị | Xuyến | 15/03/2010
+Row 51: 44 | 2510005183 | Hoàng Hải | Yến | 01/01/2010
+Row 52: 45 | 2510005203 | Nguyễn Thị | Yến | 25/03/2010
+Row 53: THỐNG KÊ HỌC KỲ 1 |  |  |  | 
+Row 55: Số học sinh đạt |  |  | Tốt |  | - | 7.95
+Row 56: Số lượng - Tỉ lệ (%) |  |  | Khá |  | - | 6.45
+Row 57:  |  |  | Đạt |  | - | 4.95
+Row 58:  |  |  | Chưa Đạt |  | -
+

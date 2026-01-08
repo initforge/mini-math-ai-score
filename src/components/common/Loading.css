@@ -1,0 +1,13 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-2xl);
+}
+
+.loading-message {
+  margin-top: var(--spacing-md);
+  color: var(--color-text-secondary);
+}
+

@@ -1,0 +1,8 @@
+.exam-organization {
+  min-height: 100vh;
+  background: var(--color-background);
+  padding-bottom: var(--spacing-3xl);
+}
+
+/* Tab styles imported from src/styles/tabs.css */
+

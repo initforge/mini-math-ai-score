@@ -1,0 +1,22 @@
+
+=== Sheet: Sheet1 ===
+
+Row 1: Câu\Mã Đề | 101 | 103 | 105 | 107
+Row 2: 1 | B | C | C | B
+Row 3: 2 | A | D | A | C
+Row 4: 3 | D | B | C | B
+Row 5: 4 | C | B | B | C
+Row 6: 5 | A | B | D | B
+Row 7: 6 | B | C | C | D
+Row 8: 7 | A | A | A | C
+Row 9: 8 | A | B | D | B
+Row 10: 9 | C | B | A | B
+Row 11: 10 | C | B | C | B
+Row 12: 11 | D | D | B | A
+Row 13: 12 | A | C | C | A
+Row 14: 1 | SĐSĐ | ĐSĐS | ĐSSĐ | ĐĐĐS
+Row 15: 2 | ĐSĐĐ | ĐSSĐ | ĐSĐS | ĐSSĐ
+Row 16: 3 | SSĐĐ | ĐĐĐS | SĐĐĐ | ĐSSĐ
+Row 17: 1 | -0,8. | -0,8. | 21. | -0,8.
+Row 18: 2 | 21. | 21. | -0,8. | 21.
+

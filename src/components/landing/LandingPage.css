@@ -1,0 +1,27 @@
+/* Landing Page - Giữ nguyên theme cũ, không bị ảnh hưởng bởi theme mới */
+.landing-page {
+  min-height: 100vh;
+  /* Override theme variables cho landing page */
+  --color-background: #FFFFFF;
+  --color-card-bg: #F9FAFB;
+  --color-primary: #3B82F6;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+  --font-h1: 48px;
+  --font-h2: 36px;
+  --font-h3: 24px;
+  --font-body: 16px;
+}
+
+.landing-footer {
+  background: var(--color-card-bg);
+  padding: var(--spacing-lg) 0;
+  margin-top: var(--spacing-3xl);
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+

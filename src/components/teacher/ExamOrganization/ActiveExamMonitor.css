@@ -1,0 +1,70 @@
+.active-exam-monitor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+}
+
+.monitor-card {
+  background: white;
+}
+
+.monitor-card h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-primary);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-card-bg);
+}
+
+.sessions-table {
+  overflow-x: auto;
+}
+
+.sessions-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sessions-table th {
+  background: var(--color-card-bg);
+  padding: var(--spacing-md);
+  text-align: left;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  border-bottom: 2px solid var(--color-card-bg);
+}
+
+.sessions-table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-card-bg);
+  color: var(--color-text-secondary);
+}
+
+.sessions-table tr:hover {
+  background: var(--color-card-bg);
+}
+
+.status-badge {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-semibold);
+}
+
+.status-badge.in-progress {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--color-success);
+}
+
+.status-badge.submitted {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--color-primary);
+}
+
+.no-active,
+.no-sessions {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--color-text-secondary);
+}
+

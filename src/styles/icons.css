@@ -1,0 +1,729 @@
+/* ============================================
+   CSS Icons - Thay thế images trong IMAGE_REQUIREMENTS.md
+   ============================================ */
+
+/* Base Icon Class */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.icon-small {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-medium {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-large {
+  width: 32px;
+  height: 32px;
+}
+
+/* Dashboard Icon - Biểu đồ cột */
+.icon-dashboard::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 8px;
+  background: currentColor;
+  border-radius: 2px 2px 0 0;
+}
+
+.icon-dashboard::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+  width: 4px;
+  height: 12px;
+  background: currentColor;
+  border-radius: 2px 2px 0 0;
+}
+
+.icon-dashboard {
+  color: white;
+}
+
+/* Exams Icon - Clipboard với checkmark */
+.icon-exams::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 12px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.icon-exams::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 4px;
+  height: 2px;
+  border-left: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+}
+
+.icon-exams {
+  color: white;
+}
+
+/* Students Icon - Nhóm người */
+.icon-students::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 6px;
+  height: 8px;
+  background: currentColor;
+  border-radius: 3px 3px 0 0;
+}
+
+.icon-students::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 6px;
+  height: 10px;
+  background: currentColor;
+  border-radius: 3px 3px 0 0;
+}
+
+.icon-students {
+  color: white;
+}
+
+/* Live Monitor Icon - Màn hình với sóng */
+.icon-live-monitor::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 16px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+}
+
+.icon-live-monitor::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+  width: 2px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 0 0 1px 1px;
+}
+
+.icon-live-monitor {
+  color: white;
+}
+
+/* Question Bank Icon - Stack documents */
+.icon-question-bank::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-radius: 1px;
+  background: transparent;
+}
+
+.icon-question-bank::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-radius: 1px;
+  background: transparent;
+  transform: translate(2px, 2px);
+}
+
+.icon-question-bank {
+  color: white;
+}
+
+/* Results Icon - Biểu đồ tăng trưởng */
+.icon-results::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 1px 1px 0 0;
+}
+
+.icon-results::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 3px;
+  height: 10px;
+  background: currentColor;
+  border-radius: 1px 1px 0 0;
+}
+
+.icon-results {
+  color: white;
+}
+
+/* Settings Icon - Bánh răng */
+.icon-settings {
+  color: white;
+}
+
+.icon-settings::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.icon-settings::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+/* Help Icon - Dấu hỏi trong vòng tròn */
+.icon-help {
+  color: white;
+}
+
+.icon-help::before {
+  content: '?';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Logout Icon - Mũi tên ra ngoài */
+.icon-logout::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: translate(-30%, -50%) rotate(45deg);
+}
+
+.icon-logout::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 2px;
+  background: currentColor;
+}
+
+.icon-logout {
+  color: white;
+}
+
+/* Search Icon - Kính lúp */
+.icon-search {
+  color: var(--color-text-secondary);
+}
+
+.icon-search::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+
+.icon-search::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 6px;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(45deg);
+  transform-origin: left center;
+}
+
+/* Calendar Icon */
+.icon-calendar {
+  color: var(--color-text-secondary);
+}
+
+.icon-calendar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+}
+
+.icon-calendar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 2px 2px 0 0;
+}
+
+/* Notification Icon - Chuông */
+.icon-notification {
+  color: var(--color-text-secondary);
+}
+
+.icon-notification::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.icon-notification::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 0 0 1px 1px;
+}
+
+/* Arrow Right */
+.icon-arrow-right {
+  color: white;
+}
+
+.icon-arrow-right::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid currentColor;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+/* Arrow Left */
+.icon-arrow-left {
+  color: white;
+}
+
+.icon-arrow-left::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-right: 6px solid currentColor;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+/* Edit Icon - Bút chì */
+.icon-edit {
+  color: var(--color-text-secondary);
+}
+
+.icon-edit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.icon-edit::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 4px;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(-45deg);
+}
+
+/* Delete Icon - Thùng rác */
+.icon-delete {
+  color: var(--color-error);
+}
+
+.icon-delete::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-top: none;
+  border-radius: 0 0 2px 2px;
+}
+
+.icon-delete::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 4px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px 1px 0 0;
+}
+
+/* View Icon - Mắt */
+.icon-view {
+  color: var(--color-text-secondary);
+}
+
+.icon-view::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 10px;
+  border: 2px solid currentColor;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.icon-view::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 50%;
+}
+
+/* Add Icon - Dấu cộng trong vòng tròn */
+.icon-add {
+  color: white;
+  position: relative;
+}
+
+.icon-add::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+
+.icon-add::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  box-shadow: 0 0 0 0 currentColor, 0 0 0 0 currentColor;
+}
+
+.icon-add::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 2px;
+  background: currentColor;
+}
+
+/* Stat Icons - 32x32px */
+.stat-icon-clock {
+  width: 32px;
+  height: 32px;
+  color: var(--color-success);
+}
+
+.stat-icon-clock::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  border: 3px solid currentColor;
+  border-radius: 50%;
+}
+
+.stat-icon-clock::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform-origin: bottom center;
+  transform: translate(-50%, -50%) translateY(-4px);
+}
+
+.stat-icon-users {
+  width: 32px;
+  height: 32px;
+  color: var(--color-warning);
+}
+
+.stat-icon-users::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  width: 8px;
+  height: 10px;
+  background: currentColor;
+  border-radius: 4px 4px 0 0;
+}
+
+.stat-icon-users::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  width: 8px;
+  height: 12px;
+  background: currentColor;
+  border-radius: 4px 4px 0 0;
+}
+
+.stat-icon-chart {
+  width: 32px;
+  height: 32px;
+  color: #8B5CF6;
+}
+
+.stat-icon-chart::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  height: 8px;
+  background: currentColor;
+  border-radius: 2px 2px 0 0;
+}
+
+.stat-icon-chart::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+  background: currentColor;
+  border-radius: 2px 2px 0 0;
+}
+
+.stat-icon-documents {
+  width: 32px;
+  height: 32px;
+  color: var(--color-success);
+}
+
+.stat-icon-documents::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 18px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+}
+
+.stat-icon-documents::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 18px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  transform: translate(2px, 2px);
+}
+
+.stat-icon-calendar {
+  width: 32px;
+  height: 32px;
+  color: var(--color-error);
+}
+
+.stat-icon-calendar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 20px;
+  border: 3px solid currentColor;
+  border-radius: 3px;
+}
+
+.stat-icon-calendar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 3px 3px 0 0;
+}
+
+/* Status Dots */
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-dot-live {
+  background: var(--color-success);
+  animation: pulse-dot 2s infinite;
+}
+
+.status-dot-pending {
+  background: var(--color-warning);
+  animation: pulse-dot 2s infinite;
+}
+
+.status-dot-error {
+  background: var(--color-error);
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+/* Progress Circle */
+.progress-circle {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.progress-circle svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.progress-circle .bg-circle {
+  fill: none;
+  stroke: var(--color-border);
+  stroke-width: 6;
+}
+
+.progress-circle .progress-circle-path {
+  fill: none;
+  stroke: var(--color-primary-light);
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
+

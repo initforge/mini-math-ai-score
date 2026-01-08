@@ -1,0 +1,24 @@
+.ai-mode-tabs {
+  margin-top: var(--spacing-lg);
+}
+
+.mode-tabs-header {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--color-card-bg);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.mode-tabs-header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tab styles imported from src/styles/tabs.css */
+
+.mode-content {
+  min-height: 400px;
+}

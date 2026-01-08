@@ -1,0 +1,23 @@
+.exam-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+}
+
+.no-exams {
+  text-align: center;
+  padding: var(--spacing-3xl);
+  color: var(--color-text-secondary);
+}
+
+.no-exams p {
+  font-size: var(--font-base);
+}
+
+@media (max-width: 768px) {
+  .exam-card-list {
+    grid-template-columns: 1fr;
+  }
+}
+

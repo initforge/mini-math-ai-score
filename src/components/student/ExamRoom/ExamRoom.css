@@ -1,0 +1,80 @@
+.exam-room {
+  min-height: 100vh;
+  background: var(--color-background);
+  padding-bottom: var(--spacing-3xl);
+}
+
+.tab-switch-warning {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.95), rgba(239, 68, 68, 0.95));
+  color: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+  font-weight: var(--font-weight-semibold);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.exam-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--spacing-xl) 0;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.exam-title {
+  color: var(--color-text-primary);
+  font-size: var(--font-h2);
+  margin: 0;
+}
+
+.questions-card {
+  margin-top: var(--spacing-lg);
+}
+
+.submit-section {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 2px solid var(--color-card-bg);
+}
+
+.submit-button {
+  min-width: 200px;
+  font-size: var(--font-h3);
+  padding: var(--spacing-md) var(--spacing-xl);
+}
+
+/* Căn giữa card chờ chấm bài */
+.submitted-card {
+  max-width: 500px;
+  margin: 10vh auto;
+  text-align: center;
+  padding: var(--spacing-2xl);
+}
+
+.submitted-card h2 {
+  color: var(--color-success);
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-h2);
+}
+
+.submitted-card p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xl);
+  font-size: var(--font-lg);
+}
+
+.submitted-card button {
+  margin-top: var(--spacing-md);
+}
+

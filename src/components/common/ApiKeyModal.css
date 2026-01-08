@@ -1,0 +1,65 @@
+.api-key-modal .modal-content {
+  max-width: 500px;
+  padding: var(--spacing-xl);
+}
+
+.api-key-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.modal-title {
+  font-size: var(--font-h2);
+  color: var(--color-text-primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.modal-description {
+  color: var(--color-text-secondary);
+  font-size: var(--font-body);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.help-section {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.help-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+  transition: all 0.2s;
+  font-size: var(--font-body);
+}
+
+.help-link:hover {
+  color: #2563EB;
+  transform: translateX(4px);
+}
+
+.help-link:visited {
+  color: var(--color-primary);
+}
+
+.input-section {
+  margin: var(--spacing-md) 0;
+}
+
+.modal-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: flex-end;
+  margin-top: var(--spacing-md);
+}
+

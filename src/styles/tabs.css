@@ -1,0 +1,56 @@
+/* Common tab styles - áp dụng cho tất cả tabs */
+.tabs-header {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin: var(--spacing-lg) 0;
+  border-bottom: 2px solid var(--color-card-bg);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.tabs-header::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-button,
+.mode-tab {
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: none;
+  border: none;
+  font-size: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tab-button:hover,
+.mode-tab:hover {
+  color: var(--color-primary);
+  background: rgba(23, 78, 79, 0.05); /* Dark Teal with opacity */
+}
+
+.tab-button.active,
+.mode-tab.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+  background: rgba(23, 78, 79, 0.08); /* Dark Teal with opacity */
+}
+
+.tab-button.active::after,
+.mode-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 3px 3px 0 0;
+}
+

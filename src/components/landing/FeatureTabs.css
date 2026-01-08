@@ -1,0 +1,59 @@
+.feature-tabs {
+  padding: var(--spacing-3xl) 0;
+  background: var(--color-background);
+}
+
+.tabs-header {
+  justify-content: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Tab styles imported from src/styles/tabs.css */
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Desktop: tối đa 3 cards mỗi hàng, luôn căn giữa */
+.features-grid > * {
+  flex: 0 0 calc(33.333% - var(--spacing-xl) * 2 / 3);
+  max-width: 320px;
+  min-width: 280px;
+}
+
+/* Tablet: 2 cards mỗi hàng */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .features-grid > * {
+    flex: 0 0 calc(50% - var(--spacing-xl) / 2);
+    max-width: 320px;
+  }
+}
+
+/* Mobile: 1 card mỗi hàng */
+@media (max-width: 768px) {
+  .features-grid {
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+  }
+  
+  .features-grid > * {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .tabs-header {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+}

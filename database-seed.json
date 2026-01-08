@@ -1,0 +1,35 @@
+{
+  "users": {
+    "admin1": {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "profile": {
+        "fullName": "Administrator",
+        "firstName": "Administrator",
+        "lastName": "",
+        "class": "",
+        "email": "admin@example.com",
+        "avatar": ""
+      },
+      "createdAt": 1704067200000,
+      "lastLogin": null
+    },
+    "teacher1": {
+      "username": "teacher1",
+      "password": "teacher123",
+      "role": "teacher",
+      "profile": {
+        "fullName": "Nguyễn Văn A",
+        "firstName": "A",
+        "lastName": "Nguyễn Văn",
+        "class": "",
+        "email": "teacher1@example.com",
+        "avatar": ""
+      },
+      "createdAt": 1704067200000,
+      "lastLogin": null
+    }
+  }
+}
+
